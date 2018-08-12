@@ -9,12 +9,12 @@
 #   end 
 
 
-name = ["ken", "jen", "ben"]
+# name = ["ken", "jen", "ben"]
 
 
 
 
-index = 0 
+# index = 0 
 # loop do 
 #     puts "Now serving #{name[index]} of the line."
     
@@ -66,37 +66,40 @@ index = 0
 #"Flatiron".downcase.start_with? "f".downcase
 
 
-def print_routine(day)
-  wake_up_time(day)
-  go_to_work(day)
-  bedtime(day)
-end
+# def print_routine(day)
+#   wake_up_time(day)
+#   go_to_work(day)
+#   bedtime(day)
+# end
 
-def go_to_work(day)
-   if day.downcase.start_with? "s"
-    puts "No work today!"
-  else
-    puts "Must go to work. So wake up early!"
-  end
-end
+# def go_to_work(day)
+#   if day.downcase.start_with? "s"
+#     puts "No work today!"
+#   else
+#     puts "Must go to work. So wake up early!"
+#   end
+# end
 
-def bedtime(day)
-   if day.downcase.start_with? "s"
-    puts "Game all night!"
-  else
-    puts "Sleep before 9PM!"
-  end
-end
+# def bedtime(day)
+#   if day.downcase.start_with? "s"
+#     puts "Game all night!"
+#   else
+#     puts "Sleep before 9PM!"
+#   end
+# end
 
-def wake_up_time(day)
-  if day.downcase.start_with? "s"
-    puts "wake up at anytime!"
-  else
-    puts "wake up at 6AM"
-  end
-end
+# def wake_up_time(day)
+#   if day.downcase.start_with? "s"
+#     puts "wake up at anytime!"
+#   else
+#     puts "wake up at 6AM"
+#   end
+# end
 
-print_routine("Monday")
+# print_routine("Monday")
+#How can we write on line of code to print a routine for everyday of the week? 
 
-  
+#Iteration: work through a set of data 
+
+
   
